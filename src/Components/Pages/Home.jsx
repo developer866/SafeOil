@@ -23,6 +23,9 @@ function Home() {
           </section>
         </div>
       </div>
+      <section  className="min-h-screen"> 
+
+      </section>
     </div>
   );
 }
