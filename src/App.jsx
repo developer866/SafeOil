@@ -6,6 +6,7 @@ import Blog from "./Components/Pages/Blog";
 import Services from "./Components/Pages/Services";
 import Contact from "./Components/Pages/Contact";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Pages/Footer";
 function App() {
   return (
     <main className="md:max-w-9xl mx-auto">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </main>
   );
 }
