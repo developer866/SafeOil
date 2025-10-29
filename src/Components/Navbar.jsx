@@ -34,21 +34,25 @@ function Navbar() {
       </section>
 
       {/* mobile lesson */}
-      <section className="flex md:hidden">
+      <section className="flex md:hidden ">
         {/* hamburger icon */}
         <img
-          src="/image/hamburger"
+          src="/bars-solid-full.svg"
+          className="w-[35px]"
           alt="hamburger icon"
           onClick={handleClicks}
         />
         {showMenu && (
-          <div className="absolute bg-black right-0 top-0 w-[50%]  text-white p-10">
-            <img
-              src="/image/hamburger"
-              alt="hamburger icon"
-              onClick={handleClicks}
-            />
-            <ul>
+          <div className="absolute  right-0 top-0 w-[50%] z-100  bg-white p-2">
+            <div className="flex justify-end mb-4">
+              <img
+                src="/xmark-solid-full.svg"
+                className="w-[30px] "
+                alt="hamburger icon"
+                onClick={handleClicks}
+              />
+            </div>
+            <ul className="space-y-6 text-gray-600 font-semibold flex flex-col">
               <Link to="/" onClick={handleClicks}>
                 <h3>HOME</h3>
               </Link>
