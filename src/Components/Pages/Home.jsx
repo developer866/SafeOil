@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="relative md:h-screen h-[100vh] bg-[url('/artisan.jpg')] bg-cover bg-center">
+      <div className="relative md:h-screen h-[80vh] bg-[url('/artisan.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-linear-to-r from-black/90 to-transparent"></div>
 
-        <div className="relative z-10 md:flex md:flex-col justify-center  text-white h-full  md:w-[60%] p-10 md:pl-20 space-y-6">
+        <div className="relative z-10 md:flex md:flex-col justify-center  text-white h-full  md:w-[60%] p-5 md:pl-20 space-y-6">
           <h1 className="md:text-8xl text-4xl mt-10 font-bold">
             Servicing Gas Industry
           </h1>
@@ -29,9 +29,9 @@ function Home() {
         </div>
       </div>
 
-      <section className="flex flex-col md:flex-row justify-between items-center p-6 md:h-[70vh] mx-auto text-center gap-6">
+      <section className="flex flex-col md:flex-row justify-between items-center p-3 md:h-[70vh] mx-auto text-center gap-6">
         {/* Construction */}
-        <div className="border border-gray-300 p-6 h-[250px] flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
+        <div className="border border-gray-300 p-3 h-[250px]  flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
           <img
             src="/safe.logo.png"
             alt="Construction Logo"
@@ -45,7 +45,7 @@ function Home() {
         </div>
 
         {/* Supply */}
-        <div className="border border-gray-300 p-6 h-[250px] flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
+        <div className="border border-gray-300 p-3 h-[250px] flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
           <img
             src="/safe.logo.png"
             alt="Supply Logo"
@@ -59,7 +59,7 @@ function Home() {
         </div>
 
         {/* Maintenance */}
-        <div className="border border-gray-300 p-6 h-[250px] flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
+        <div className="border border-gray-300 p-3 h-[250px] flex flex-col justify-center items-center rounded-xl shadow-sm hover:shadow-md transition-all">
           <img
             src="/safe.logo.png"
             alt="Maintenance Logo"
@@ -84,16 +84,17 @@ function Home() {
         </div>
       </section> */}
 
-      <section className="min-h-screen space-y-4">
-        <h1 className="text-4xl">Recently Completed Project</h1>
-        <div className="border md:flex justify-between gap-4 h-[250px] items-center">
-          <div className="border w-[40%]">1</div>
-          <div className="w-[40%] border">
-            <h1 className="">Opebi Importation file compromise law suit</h1>
-            <p>hello</p>
-            <h1>hello</h1>
+      <section className="min-h-screen space-y-4 p-3 md:p-10">
+        <section className="mt-10">
+          <h1 className="md:text-4xl text-2xl">Recently Completed Project</h1>
+          <div className="border md:flex justify-between gap-4 h-[250px] items-center">
+            <div className="border md:w-[40%]">1</div>
+            <div className="md:w-[40%]">
+              <h1 className="text-xl font-bold">First quarters</h1>
+              <p>hello</p>
+            </div>
           </div>
-        </div>
+        </section>
       </section>
 
       {/* meet Team */}
