@@ -13,7 +13,7 @@ function Navbar() {
       <img src="/safe.logo.png" alt="logo" className="md:w-1/8 w-[30%]" />
       {/* navigation */}
       <section className="">
-        <ul className="space-x-6 text-gray-600 font-semibold hidden md:flex text-2xl pr-10">
+        <ul className="space-x-6 text-gray-600 font-semibold hidden md:flex text-xl pr-10">
           <Link to="/">
             <h3>HOME</h3>
           </Link>

@@ -13,7 +13,7 @@ function Home() {
           <h1 className="md:text-7xl text-5xl mt-10 font-bold">
             Servicing Gas Industry
           </h1>
-          <p className="md:text-3xl text-xl mt-10 md:w-[70%]">
+          <p className="md:text-2xl text-xl mt-10 md:w-[70%]">
             Safe oil and gas is one of the leading companies in Nigeria that
             deals with the construction and installation of gas plant , supply
             of gas tank etc
