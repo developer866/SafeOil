@@ -6,7 +6,6 @@ function Navbar() {
 
   const handleClicks = () => {
     setShowMenu(!showMenu);
-   
   };
   return (
     <div className="flex fixed top-0 left-0 z-80 justify-between items-center md:p-3  py-4 mx-auto  bg-white/80 backdrop-blur-md">
@@ -14,8 +13,8 @@ function Navbar() {
       <img src="/safe.logo.png" alt="logo" className="md:w-1/8 w-[30%]" />
       {/* navigation */}
       <section className="">
-        <ul className="space-x-6 text-gray-600 font-semibold hidden md:flex">
-          <Link to="/" >
+        <ul className="space-x-6 text-gray-600 font-semibold hidden md:flex text-2xl pr-10">
+          <Link to="/">
             <h3>HOME</h3>
           </Link>
           <Link to="/About">
@@ -24,9 +23,9 @@ function Navbar() {
           <Link to="/Services">
             <h3>SERVICES</h3>
           </Link>
-          <Link to="/Blog">
+          {/* <Link to="/Blog">
             <h3>BLOG</h3>
-          </Link>
+          </Link> */}
           <Link to="/Contact">
             <h3>CONTACT US</h3>
           </Link>
@@ -38,22 +37,22 @@ function Navbar() {
         {/* hamburger icon */}
         <img
           src="/bars-solid-full.svg"
-          className="w-[35px]"
+          className="w-10"
           alt="hamburger icon"
           onClick={handleClicks}
         />
         {showMenu && (
-          <div className="absolute  right-0 top-0 w-[50%] z-100  bg-white p-2">
+          <div className="absolute  right-0 top-0 w-[40%] z-100  bg-white p-7">
             <div className="flex justify-end mb-4">
               <img
                 src="/xmark-solid-full.svg"
-                className="w-[30px] "
+                className="w-10 "
                 alt="hamburger icon"
                 onClick={handleClicks}
               />
             </div>
             <ul className="space-y-6 text-gray-600 font-semibold flex flex-col">
-              <Link to="/" onClick={handleClicks}>
+              <Link to="/" onClick={handleClicks} className="">
                 <h3>HOME</h3>
               </Link>
               <Link to="/About" onClick={handleClicks}>
@@ -62,9 +61,9 @@ function Navbar() {
               <Link to="/Services" onClick={handleClicks}>
                 <h3>SERVICES</h3>
               </Link>
-              <Link to="/Blog" onClick={handleClicks}>
+              {/* <Link to="/Blog" onClick={handleClicks}>
                 <h3>BLOG</h3>
-              </Link>
+              </Link> */}
               <Link to="/Contact" onClick={handleClicks}>
                 <h3>CONTACT US</h3>
               </Link>

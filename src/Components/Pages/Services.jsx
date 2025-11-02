@@ -2,13 +2,13 @@ import React from "react";
 
 function Services() {
   return (
-    <main className="min-h-[130vh] container mt-20 md:mt-27  mx-auto md:min-h-[80vh] space-y-6  ">
+    <main className=" container mt-20 md:mt-27 mb-10 mx-auto md:min-h-[80vh] space-y-6  ">
       <section>
         <h1 className="text-center text-3xl font-semibold md:text-5xl">
           OUR SERVICES
         </h1>
       </section>
-      <section className="flex flex-col mt-10 md:mt-15 md:flex-row justify-between  h-[60vh] items-center">
+      <section className="flex flex-col mt-10 md:mt-15 md:flex-row justify-between  items-center">
         <section className="md:w-[50%] mx-auto  ">
           <p className="text-xl p-5 md:p-10 ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
@@ -32,7 +32,7 @@ function Services() {
           />
         </section>
       </section>
-      <section className="flex flex-col mt-10 md:mt-15 md:flex-row justify-between  h-[60vh] items-center">
+      <section className="flex flex-col-reverse mt-10 md:mt-15 md:flex-row  justify-between   items-center">
         <section className="md:w-[50%] w-[70%] ">
           <img
             src="/artisan.jpg"
