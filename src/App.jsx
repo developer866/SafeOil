@@ -7,6 +7,7 @@ import Services from "./Components/Pages/Services";
 import Contact from "./Components/Pages/Contact";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Pages/Footer";
+import ScrollToTop from "./Components/ScrollTop";
 function App() {
   return (
     <main className="md:max-w-9xl mx-auto">
@@ -20,6 +21,7 @@ function App() {
           </div>
         </div>
       <Routes>
+        <ScrollToTop />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
