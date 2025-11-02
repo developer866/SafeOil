@@ -6,16 +6,16 @@ function Navbar() {
 
   const handleClicks = () => {
     setShowMenu(!showMenu);
-    console.log(showMenu);
+   
   };
   return (
-    <div className="flex justify-between items-center md:p-3 border-b py-4 mx-auto">
+    <div className="flex fixed top-0 left-0 z-80 justify-between items-center md:p-3  py-4 mx-auto  bg-white/80 backdrop-blur-md">
       {/* logo */}
       <img src="/safe.logo.png" alt="logo" className="md:w-1/8 w-[30%]" />
       {/* navigation */}
       <section className="">
         <ul className="space-x-6 text-gray-600 font-semibold hidden md:flex">
-          <Link to="/">
+          <Link to="/" >
             <h3>HOME</h3>
           </Link>
           <Link to="/About">
