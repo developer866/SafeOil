@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <main className="min-h-[130vh] container mt-25 md:mt-30  mx-auto md:min-h-screen space-y-6  ">
+    <main className="min-h-[130vh] container mt-20 md:mt-25  mx-auto md:min-h-screen space-y-6  ">
       <section>
         <h1 className="text-center text-3xl font-semibold md:text-5xl">
           ABOUT US
